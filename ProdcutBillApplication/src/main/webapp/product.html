@@ -1,0 +1,25 @@
+<!doctype html>
+<html>
+	<head>
+		<title> Product bill Calculation</title>
+	</head>
+	<body bgcolor="lightblue">
+		<h1> Prodcut Details</h1>
+			<form method="get" action="./ProductServlet">
+			
+				<label>Prodcut ID :</label>
+				<input type="number" name="proId" required><br><br>
+				
+				<label>Prodcut Name :</label>
+				<input type="text" name="proName" required><br><br>
+				
+				<label>Prodcut Price :</label>
+				<input type="number" name="proPrice" required><br><br>
+				
+				<label>Prodcut Quantity :</label>
+				<input type="number" name="proQuantity" min="2" max="10" required><br><br>
+				
+				<input type="submit" value="Product Invoice">
+			</form>
+	</body>
+</html>

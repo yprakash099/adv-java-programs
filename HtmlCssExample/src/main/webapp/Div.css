@@ -1,0 +1,30 @@
+@charset "UTF-8";
+h1{
+	text-decoration: underline;
+}
+.mydesign1
+{
+	background-color: yellow;
+	color: black;
+	font-family: 'Times New Roman', Times, serif;
+	font-style: italic;
+	display: flow-root;
+	
+}
+.mydesign2
+{
+	background-color:mediumturquoise;
+	color:black;
+	font-family: 'Times New Roman', Times, serif;
+	font-style: italic;
+	display: flow-root;
+}
+.mydesign3
+{
+	background-color:chocolate;
+	color:black;
+	font-family: 'Times New Roman', Times, serif;
+	font-style: italic;
+	display: flow-root;
+	padding-bottom:20px ;
+}
